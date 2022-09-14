@@ -1,0 +1,33 @@
+.main-header_brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    /* width: 20px; */
+  }
+  
+  .main-header__brand img {
+    height: 2.5rem;
+    vertical-align: middle;
+    /* width: 100%; */
+  }
+
+  .main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,#20022a 0,#0c66b4 100%);
+    padding: 0.5rem 1rem;
+    z-index: 60;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .loading{
+   text-align: center;
+    font-size: 10rem;
+  }
